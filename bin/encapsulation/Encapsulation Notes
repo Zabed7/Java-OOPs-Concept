@@ -1,0 +1,5 @@
+
+***********************Encapsulation ---> data hiding.**********************************************
+
+1. Variables & Methods are set to "private" so that it cannot be accessed outside the class. 
+	- Therefore, GETTERS & SETTERS are defined so that outside class can have access to it. 

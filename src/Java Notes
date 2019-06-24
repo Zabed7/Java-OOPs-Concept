@@ -1,0 +1,65 @@
+Interface: 
+
+	- Only method declaration
+	- No method body - only method prototype 
+	- In Interface, we can declare the variables, variables are by default static & final in nature
+	- Variables value will not be changed
+	- No static method in Interface
+	- No main() method in Interface
+	- We cannot create the object of Interface
+	- Interface is abstract in nature
+		-Abstract means --> cannot instantiate, instantiate means cannot create an object of the interface
+
+****************************************************************************************************************
+
+Constructors:
+
+    - It is called automatically, once the object is created for the class.
+
+****************************************************************************************************************
+
+Methods:
+    - If the method/s is "non-static", we have to create a object in the main() method in-order 
+    	to call it.
+
+    - If the method/s is "static", we can just call it with the method name in the main() method.
+
+Method OverLoading:
+
+    - Same method name, with different arguments/parameters.
+
+    1. Can a constructor be overloaded?
+        Yes, with different parameters.
+
+Method Overriding:
+
+    - Same method name, with same arguments/parameters.
+
+    1. When does it happen?
+        -When child class inherits the same method from parent class, but prints different values.
+
+*****************************************************************************************************************
+
+
+final: is a Keyword
+
+1. final can be used to mark a variable "unchangeable".
+2. final can also make a method not "overrideable"
+3. final can also make a class not "inheritable". i.e. the class can not be subclassed.
+
+finally: is a Block
+
+finally is used in a try/catch statement to execute code "always".
+    Ex: finally{
+        System.out.println(close.database.connection);
+    }
+
+finalize: is a Method
+
+finalize is called when an object is garbage collected. You rarely need to override it.
+
+*****************************************************************************************************************
+
+Has-a ---> means class to class relationship
+
+Is-a ---> means class to interface relationship 

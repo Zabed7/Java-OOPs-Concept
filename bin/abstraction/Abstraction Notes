@@ -1,0 +1,18 @@
+
+**************************ABSTRACTION ---> Implementation hiding.************************************
+
+Interface: 
+	1. Methods are 100% abstract --> means there is NO method body, no business logic. It can only
+		declare method/s, but not implement. 
+	2. Method/s CANNOT use the access modifier "protected" 
+	
+Abstract Class:
+	1. Its know as partial abstract 0-100% ---> means it can have both types concrete & abstract 
+		methods.
+	
+Regular Class:
+	1. It can extend ONLY one Abstract Class.
+	2. It can implement multiple Interfaces, with (,) separation.  
+	3. Must implement the unimplemented methods in Interface & Abstract class if any. 
+	4. It can have its own variables and methods. 
+		-Methods --> must be complete with implementation. 
